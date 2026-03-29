@@ -28,8 +28,9 @@ jobs:
           pip install pipenv
       - name: Install dependecies
         uses: VaultVulp/action-pipenv@v2.0.1
-        with:
-          command: install -d # Install all dependencies, including development ones
+        run: |
+          # Use --skip-lock if you don't have a Pipfile.lock in your repo yet
+          pipenv install -d --skip-lock
       - name: Python build
         # env:
         #   _file_changes: ${{ steps.file_changes.outputs.files }}
