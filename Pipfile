@@ -7,8 +7,9 @@ name = "pypi"
 build = "python main.py"
 
 [packages]
-requests = "2.26.0"
-pyyaml = "5.4.1"
+# Updated to modern, stable versions
+requests = "*"
+pyyaml = ">=6.0.1"
 
 [dev-packages]
 
