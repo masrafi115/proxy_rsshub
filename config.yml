@@ -1,9 +1,6 @@
 ---
 instances:
-- https://rss.shab.fun/
-- https://vercel.getrss2021.xyz/
-- https://rsshub.rssforever.com/
-- http://getrss2021.xyz:1200/
+- https://rsshub.ddns.net/
 - https://rsshub.app/
 routes:
 - title: Linkedin - Google
